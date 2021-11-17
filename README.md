@@ -1,14 +1,4 @@
 # CounterApp
+Primera aplicación de React en el curso de Fernando Herrera
 
-Esta es nuestra primera aplicación de React. Recuerden que si desean ejecutar esta aplicación, deben de reconstruir los módulos de node así:
-
-```
-npm install
-```
-
-Y luego pueden correrlo así
-
-```
-npm start
-```
 
