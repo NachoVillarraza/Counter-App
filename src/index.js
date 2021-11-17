@@ -1,6 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+// import PrimeraApp from './PrimeraApp';
 import CounterApp from './CounterApp';
 
-ReactDOM.render(<CounterApp value={0} />, document.getElementById('root'));
+import './index.css';
+
+const divRoot = document.querySelector('#app');
+
+// ReactDOM.render(<PrimeraApp saludo="Hola, Soy Goku" />, divRoot);
+ReactDOM.render(<CounterApp value={0} />, divRoot);
